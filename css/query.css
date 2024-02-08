@@ -1,0 +1,87 @@
+@media (max-width: 991px) {
+  .main-nav {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 0;
+    gap: 1.6rem;
+    margin-top: 2rem;
+  }
+  .nav-item:first-child {
+    margin-top: 1.6rem;
+  }
+  .navbar {
+    padding: 2rem 1rem;
+  }
+  .grid-6-cols {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 769px) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid-hero-cols {
+    grid-template-columns: 1fr;
+  }
+  .about-author {
+    text-align: center;
+  }
+  .author-image {
+    justify-self: center;
+    max-width: 80%;
+  }
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  .grid-6-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card-image {
+    height: 4.4rem;
+    width: 4.4rem;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+  }
+
+  .card-item {
+    padding: 1.2rem;
+  }
+
+  .container-gap {
+    padding: 0 1.6rem;
+  }
+  footer {
+    padding: 8rem 0;
+  }
+  .grid-footer {
+    column-gap: 4rem;
+  }
+  .company-logo {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .container-gap {
+    padding: 0;
+  }
+  .cotainer {
+    padding: 0 0.5rem;
+  }
+  .grid-footer {
+    column-gap: 1.5rem;
+  }
+}
